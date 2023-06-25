@@ -1,0 +1,22 @@
+{
+  "name": "practice_js_cypress_05",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx cypress open --e2e --browser chrome",
+    "test:run:chrome": "npx cypress run --spec 'cypress/e2e/tests/*' --browser chrome"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
+    "@testing-library/cypress": "^9.0.0",
+    "cypress": "^12.15.0",
+    "cypress-mochawesome-reporter": "^3.5.1"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.1",
+    "cypress-real-events": "^1.8.1"
+  }
+}
